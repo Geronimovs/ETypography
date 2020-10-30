@@ -8,7 +8,7 @@ header_feature_image: ""
 published: true
 tags: null
 description: null
-show: true
+show: false
 ---
 
 This page is where you write something about yourself. You can add pictures so that people know where you come from or where you live.
