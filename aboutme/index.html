@@ -1,99 +1,217 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+/* ---- General Styles ---- */
+body {
+	margin: 0px;
+	text-align: center;
+	font-family: "Avenir", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 800;
+}
+
+/* ---- Introduction Section ---- */
+.introduction_section {
+	height: 700px;
+	width: 100%;
+	background-image: url("https://wallpaperaccess.com/full/43666.jpg");
+	background-size: cover;
+}
+
+/* Profile Picture */
+.profile_picture_circle {
+	padding-top: 150px;
+}
+
+.profile_picture {
+	background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/89119324_3087352771284256_5755776761036013568_n.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=gTcQTBUo0HgAX-RMFKc&_nc_ht=scontent-lht6-1.xx&oh=2c80b1882a1a6a693788329541e411a7&oe=5FC22BFD");
+	background-position: center;
+	width: 160px;
+	height: 160px;
+	border: black 5px solid;
+	border-radius: 50%;
+	background-size: 105%;
+
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Hello text */
+.hello_title {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.hello_subtitle {
+	color: black;
+	text-align: center;
+	font-size: 19px;
+	margin-top: 0px;
+}
+
+/* Social Icons */
+.social_icon {
+	margin: 7px;
+}
+
+.social_icon img {
+	width: 40px;
+}
+
+.social_icon:hover {
+	opacity: 0.5;
+}
 
 
-<!-- // Introduction Section // -->
-<div class="introduction_section">
+/* ---- Few Things Banner ---- */
+.few_things_banner {
+	background-color: #30aba2;
+}
 
-	<!-- Profile picture -->
-	<!-- Note: change profile background image in the styles.css -->
-	<div class="profile_picture_circle"><div class="profile_picture"></div></div>
-
-	<!-- Hello text -->
-	<p class="hello_title">Hey! I'm Geronimo Villaveces</p>
-
-	<!-- Hello subtitle -->
-	<p class="hello_subtitle">Oxdord Brookes University Student</p>
-
-	<!-- Social icons -->
-	<a class="social_icon" href="https://www.facebook.com/geronimo.villavecesschenk" target="blank">
-		<img src="https://image.flaticon.com/icons/png/512/25/25305.png">
-	</a>
-
-	<a class="social_icon" href="https://www.instagram.com/geronimov/" target="blank">
-		<img src="https://boutiquedelulu.com/wp-content/uploads/2020/08/pngwing.com_.png">
-	</a>
-
-</div>
-
-
-<!-- // Few Things Banner // -->
-<div class="few_things_banner">
-
-	<p class="few_things_text">Some Facts About me...</p>
-
-</div>
-
-
-<!-- // Facts // -->
-<div class="facts">
-
-	<p>🇨🇴 I was born in <span class="highlight">Colombia</span> on the city of <span class="highlight">Bogotá.</span> 🇨🇴</p>
-
-<p>I also lived for a year in <span class="highlight">Key Biscayne, Florida</span> when I was six and <span class="highlight">Rouen, France.</span> when I was 17. After that, I moved to <span class="highlight">Oxford, UK</span> to do a Foundation Year and descided to stay for University  </p>
-
-	<!-- Cope and paste your favourite emoji from here: https://textfancy.com/emoji/ -->
-	<p>I have a dog! He's an Australian Cattle Dog or Blue Heeler and his name is <span class="highlight">Cooper</span>! </p>
-<img class="fact_image" src="https://37.media.tumblr.com/tumblr_m2fumeNt1E1qjcdw9o1_500.jpg">
-	<p>The book I'm currently reading for the second time is <a class="fact_link" href="https://www.amazon.co.uk/Ready-Player-One-Ernest-Cline/dp/0099560437" target="blank">Ready Player One</a></p>
-
-	<!-- Picture -->
-	<p>My favourite comedians at the moment are <a class="fact_link" href="https://danielsloss.com/" target="blank">DANIEL SLOSS</a>, <a class="fact_link" href="https://twitter.com/mulaney" target="blank">JHON MULANEY</a> and <a class="fact_link" href="http://www.boburnham.com/" target="blank">BO BURNHAM</a>
-		<div class="row">
-	  <div class="column">
-	    <img src="https://thelaughbutton.com/site2/wp-content/uploads/2018/10/danielslossnetflix.jpg" alt="Snow" style="width:90%">
-	  </div>
-	  <div class="column">
-	    <img src="https://img.nbc.com/sites/nbcunbc/files/images/2020/2/29/JohnMulaney02_084_lyrd_copy_3.png" alt="Forest" style="width:90%">
-	  </div>
-	  <div class="column">
-	    <img src="https://thecomicscomic.com/wp-content/uploads/2016/06/BoBurnham_MakeHappy_Netflix.jpg" alt="Mountains" style="width:80%">
-	  </div>
-	</div>
-
-	<p>My favourite drink is called an <span class="highlight">Arnold Palmer.</span></p>
-
-	<!-- Public Figure List -->
-	<p>When people learn my name is Geronimo they normally say one of this 3 things:</p>
-	<p><li>Do your parents like <a class="fact_link" href="https://www.youtube.com/watch?v=UMA0WO2CPT0&ab_channel=Geronimonsy" target="blank">Dr. Who</a>? It's one of his catch catchphrases.</li><p>
-		<p><li>Have you heard the song <a class="fact_link" href="https://www.youtube.com/watch?v=ozsmSlvGHv4&ab_channel=SheppardVEVO" target="blank">Geronimo</a>? Yes, too many times.</li><p>
-			<p><li>Did you grow up reading the <a class="fact_link" href="https://www.amazon.co.uk/Geronimo-Stilton-Books-Collection-Box/dp/0678453314/ref=sr_1_3?dchild=1&qid=1604040564&refinements=p_27%3AGeronimo+Stilton&s=books&sr=1-3" target="blank">Geronimo Stilton Books</a>? Yes, and I loved them.</li><p>
-
-
-
-	<p class="fact">I am allergic to <span class="highlight">Sunscreen.</span> </p>
-
-	<p class="fact">Some of my hobbies include: <span class="highlight">Reading, Video Editing and Writing.</span></p>
-
-	<p class="fact">My favourite sports include <span class="highlight"> Wakeboarding and Snowboarding</span></p>
-
-</div>
+.few_things_text {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin: 0;
+	padding: 15px;
+}
 
 
 
-<!-- // Tell Me Section // -->
-<div class="tell_me_section">
+/* ---- Facts ---- */
+/* Main Text */
+.facts {
+	background-color: #EFEFEF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
-	<p class="learned_text">You've learned a little about me.</p>
+.facts p {
+	text-align: center;
+	color: #515151;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 70px;
 
-	<p class="tell_me_link"><a href="social_icon" target="social_icon">Tell me about you</a></p>
+	max-width: 760px;
+	margin: 80px auto 80px auto;
+	padding: 0 20px 0 20px;
+}
 
-</div>
+/* Text Highlight Colour */
+.highlight {
+	color: #C32E28;
+	font-weight: 500;
+}
 
-</body>
+/* Fact Links */
+.fact_link {
+	color: #C32E28;
+	font-weight: 500;
+	text-decoration: none;
+	border-bottom: 3px solid #C32E28;
+	padding: 0px 2px 0px 2px;
+}
 
-</html>
+.fact_link:hover {
+	color: #EFEFEF;
+	background-color: #C32E28;
+	padding: 0px 2px 0px 2px;
+}
+
+/* Fact Picture */
+.fact_image {
+	max-width: 400px;
+	border: lightblue solid 10px;
+
+	display: block;
+	margin: 20px auto 0 auto;
+}
+
+/* Public Figures List */
+.public_figures_list {
+	font-family: "Avenir", "Helvetica Neue", "Arial", sans-serif;
+	text-align: center;
+	color: #515151;
+	font-size: 40px;
+	font-weight: 300;
+	list-style-type: none;
+
+	padding: 0;
+	margin: 0;
+	padding-top: 20px;
+	margin-top: -80px;
+}
+
+.public_figures_list li {
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+
+/* --- Tell Me About You --- */
+.tell_me_section {
+	background-color: #515151;
+	width: 100%;
+}
+
+/* 'You've learned a little about me.' */
+.learned_text {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 70px;
+
+	max-width: 760px;
+	margin: 0 auto 0 auto;
+	padding: 80px 15px 15px;
+}
+
+/* 'Tell me about you' Box */
+.tell_me_link {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 70px;
+
+	padding: 0px;
+	margin: auto;
+	padding-bottom: 100px;
+	padding-top: 30px;
+}
+
+.tell_me_link a {
+	color: white;
+	text-decoration: none;
+	border: white 3px solid;
+	border-radius: 5px;
+
+	padding: 10px 20px 10px 20px;
+}
+
+.tell_me_link a:hover {
+	color: #515151;
+	background-color: white;
+	text-decoration: none;
+	border: white 3px solid;
+	border-radius: 5px;
+
+	padding: 10px 20px 10px 20px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
