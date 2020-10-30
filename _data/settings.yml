@@ -5,7 +5,7 @@ footer_text: Copyright 2020 Geronimo Villaveces
 header_feature_image: ../uploads/background.png
 bannerheight: 20vmax
 logo: ../uploads/logo.jpg
-favicon: /uploads/favicon.ico
+favicon: ../uploads/profilepic.jpg
 gridlayout: false
 fixednavbar: false
 upzoom: true
