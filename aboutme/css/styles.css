@@ -1,7 +1,217 @@
+/* ---- General Styles ---- */
 body {
-
+	margin: 0px;
+	text-align: center;
+	font-family: "Avenir", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 800;
 }
 
-h1 {
-  
+/* ---- Introduction Section ---- */
+.introduction_section {
+	height: 700px;
+	width: 100%;
+	background-image: url("https://wallpaperaccess.com/full/43666.jpg");
+	background-size: cover;
 }
+
+/* Profile Picture */
+.profile_picture_circle {
+	padding-top: 150px;
+}
+
+.profile_picture {
+	background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/89119324_3087352771284256_5755776761036013568_n.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=gTcQTBUo0HgAX-RMFKc&_nc_ht=scontent-lht6-1.xx&oh=2c80b1882a1a6a693788329541e411a7&oe=5FC22BFD");
+	background-position: center;
+	width: 160px;
+	height: 160px;
+	border: black 5px solid;
+	border-radius: 50%;
+	background-size: 105%;
+
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Hello text */
+.hello_title {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.hello_subtitle {
+	color: black;
+	text-align: center;
+	font-size: 19px;
+	margin-top: 0px;
+}
+
+/* Social Icons */
+.social_icon {
+	margin: 7px;
+}
+
+.social_icon img {
+	width: 40px;
+}
+
+.social_icon:hover {
+	opacity: 0.5;
+}
+
+
+/* ---- Few Things Banner ---- */
+.few_things_banner {
+	background-color: #30aba2;
+}
+
+.few_things_text {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin: 0;
+	padding: 15px;
+}
+
+
+
+/* ---- Facts ---- */
+/* Main Text */
+.facts {
+	background-color: #EFEFEF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.facts p {
+	text-align: center;
+	color: #515151;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 70px;
+
+	max-width: 760px;
+	margin: 80px auto 80px auto;
+	padding: 0 20px 0 20px;
+}
+
+/* Text Highlight Colour */
+.highlight {
+	color: #C32E28;
+	font-weight: 500;
+}
+
+/* Fact Links */
+.fact_link {
+	color: #C32E28;
+	font-weight: 500;
+	text-decoration: none;
+	border-bottom: 3px solid #C32E28;
+	padding: 0px 2px 0px 2px;
+}
+
+.fact_link:hover {
+	color: #EFEFEF;
+	background-color: #C32E28;
+	padding: 0px 2px 0px 2px;
+}
+
+/* Fact Picture */
+.fact_image {
+	max-width: 400px;
+	border: lightblue solid 10px;
+
+	display: block;
+	margin: 20px auto 0 auto;
+}
+
+/* Public Figures List */
+.public_figures_list {
+	font-family: "Avenir", "Helvetica Neue", "Arial", sans-serif;
+	text-align: center;
+	color: #515151;
+	font-size: 40px;
+	font-weight: 300;
+	list-style-type: none;
+
+	padding: 0;
+	margin: 0;
+	padding-top: 20px;
+	margin-top: -80px;
+}
+
+.public_figures_list li {
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+
+/* --- Tell Me About You --- */
+.tell_me_section {
+	background-color: #515151;
+	width: 100%;
+}
+
+/* 'You've learned a little about me.' */
+.learned_text {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 70px;
+
+	max-width: 760px;
+	margin: 0 auto 0 auto;
+	padding: 80px 15px 15px;
+}
+
+/* 'Tell me about you' Box */
+.tell_me_link {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 70px;
+
+	padding: 0px;
+	margin: auto;
+	padding-bottom: 100px;
+	padding-top: 30px;
+}
+
+.tell_me_link a {
+	color: white;
+	text-decoration: none;
+	border: white 3px solid;
+	border-radius: 5px;
+
+	padding: 10px 20px 10px 20px;
+}
+
+.tell_me_link a:hover {
+	color: #515151;
+	background-color: white;
+	text-decoration: none;
+	border: white 3px solid;
+	border-radius: 5px;
+
+	padding: 10px 20px 10px 20px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
